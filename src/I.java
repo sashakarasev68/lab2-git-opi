@@ -19,6 +19,6 @@ public class I {
     }
 
     public int textLength(String text) {
-        return text == null ? 0 : text.length();
+        return text == null || text.isBlank() ? 0 : text.trim().length();
     }
 }
