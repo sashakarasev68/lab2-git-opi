@@ -7,7 +7,7 @@ public class C {
     }
 
     public byte oo() {
-        return 3;
+        return 9;
     }
 
     public void r2Method() {
