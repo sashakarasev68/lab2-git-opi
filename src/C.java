@@ -7,7 +7,11 @@ public class C {
     }
 
     public byte oo() {
-        return 3;
+        return 8;
+    }
+
+    public void r2Method() {
+        System.out.println("r2 from red user");
     }
 
     public int af() {
