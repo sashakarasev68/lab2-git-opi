@@ -10,6 +10,10 @@ public class C {
         return 3;
     }
 
+    public void r2Method() {
+        System.out.println("r2 from red user");
+    }
+
     public int af() {
         return -1;
     }
