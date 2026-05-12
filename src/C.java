@@ -1,6 +1,7 @@
 public class C {
     private byte b = 1;
     private byte j = 1;
+    private static final int DEFAULT_VALUE = -1;
 
     public void aa() {
         System.out.println("Hello world!");
@@ -15,6 +16,6 @@ public class C {
     }
 
     public int af() {
-        return -1;
+        return DEFAULT_VALUE;
     }
 }
