@@ -17,4 +17,8 @@ public class I {
     public boolean isEmpty(String text) {
         return text == null || text.isEmpty();
     }
+
+    public int textLength(String text) {
+        return text == null ? 0 : text.length();
+    }
 }
