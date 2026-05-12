@@ -13,4 +13,8 @@ public class I {
     public String kk() {
         return "Hello world";
     }
+
+    public boolean isEmpty(String text) {
+        return text == null || text.isEmpty();
+    }
 }
