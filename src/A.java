@@ -10,6 +10,9 @@ public interface A {
         return a * b;
     }
 
+    /**
+     * Calculates average value.
+     */
     default double average(double a, double b) {
         return (a + b) / 2;
     }
