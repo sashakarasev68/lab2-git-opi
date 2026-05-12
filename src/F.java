@@ -6,6 +6,10 @@ public class F extends C {
         return 0;
     }
 
+    public void r3Method() {
+        System.out.println("r3 from master");
+    }
+
     public int[] ii() {
         return new int[]{4, 3, 2, 1};
     }
